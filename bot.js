@@ -45,7 +45,7 @@ Escolha uma opção:
 2️⃣ encomendas personalizadas 
 3️⃣ Horário de atendimento
 4️⃣ Atendimento
-5 instagram`);
+5️⃣ instagram`);
 
  
 }
