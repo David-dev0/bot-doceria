@@ -105,6 +105,13 @@ Domingo
 13h às 22h`);
 
 }
+if(msg === "4"){
+
+await client.sendText(message.from,
+
+`Aguarde um momento por favor`);
+
+}
 if(msg === "5"){
 
 await client.sendText(message.from,
