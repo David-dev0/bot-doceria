@@ -89,7 +89,7 @@ if(msg === "2"){
 
 await client.sendText(message.from,
 
-`https://wa.me/c/556793464156`);
+`Por gentileza, me envie uma mensagem detalhando o que deseja encomendar.`);
 
 }
 
