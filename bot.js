@@ -31,12 +31,37 @@ client.onMessage(async (message)=>{
 
 if(message.fromMe) return;
 
-const msg = message.body.toLowerCase();
+const msg = message.body
+.toLowerCase()
+.normalize("NFD")
+.replace(/[\u0300-\u036f]/g, "");
 
-if(msg.length > 0){
+const saudacoes = [
+"oi",
+"ola",
+"bom dia",
+"boa tarde",
+"boa noite",
+"oie",
+"oii",
+"oii",
+"alo",
+"dia",
+"tarde",
+"noite",
+"opa",
+"tudo bom?",
+"tudo bom",
+"tudo bem",
+"tudo bem?",
+"tdb",
+"tdb?",
+
+];
+
+if (saudacoes.some(s => msg.includes(s))) {
 
 await client.sendText(message.from,
-
 `🍰 *Melu Doceria*
 
 Escolha uma opção:

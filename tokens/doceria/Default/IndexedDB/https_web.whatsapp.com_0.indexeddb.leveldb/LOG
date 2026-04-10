@@ -1,23 +1,16 @@
-2026/04/10-15:10:41.140 2078 Creating DB C:\Users\borge\bot-doceria\tokens\doceria\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb since it was missing.
-2026/04/10-15:10:41.457 2078 Reusing MANIFEST C:\Users\borge\bot-doceria\tokens\doceria\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/04/10-15:11:27.949 48f0 Level-0 table #5: started
-2026/04/10-15:11:28.143 48f0 Level-0 table #5: 1018914 bytes OK
-2026/04/10-15:11:28.206 48f0 Delete type=0 #3
-2026/04/10-15:11:33.553 2078 Level-0 table #7: started
-2026/04/10-15:11:33.791 2078 Level-0 table #7: 1002101 bytes OK
-2026/04/10-15:11:33.856 2078 Delete type=0 #4
-2026/04/10-15:11:33.866 48f0 Compacting 1@1 + 1@2 files
-2026/04/10-15:11:34.314 48f0 Generated table #8@1: 22179 keys, 922578 bytes
-2026/04/10-15:11:34.314 48f0 Compacted 1@1 + 1@2 files => 922578 bytes
-2026/04/10-15:11:34.386 48f0 compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/04/10-15:11:34.386 48f0 Delete type=2 #5
-2026/04/10-15:11:34.387 48f0 Delete type=2 #7
-2026/04/10-15:12:18.368 48f0 Level-0 table #10: started
-2026/04/10-15:12:18.612 48f0 Level-0 table #10: 1071591 bytes OK
-2026/04/10-15:12:18.654 48f0 Delete type=0 #6
-2026/04/10-15:12:18.665 48f0 Compacting 1@1 + 1@2 files
-2026/04/10-15:12:18.875 48f0 Generated table #11@1: 29600 keys, 1344024 bytes
-2026/04/10-15:12:18.875 48f0 Compacted 1@1 + 1@2 files => 1344024 bytes
-2026/04/10-15:12:18.931 48f0 compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/04/10-15:12:18.931 48f0 Delete type=2 #8
-2026/04/10-15:12:18.931 48f0 Delete type=2 #10
+2026/04/10-15:49:23.928 4b48 Reusing MANIFEST C:\Users\borge\bot-doceria\tokens\doceria\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/04/10-15:49:23.928 4b48 Recovering log #58
+2026/04/10-15:49:23.929 4b48 Reusing old log C:\Users\borge\bot-doceria\tokens\doceria\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000058.log 
+2026/04/10-15:49:23.929 4b48 Delete type=2 #49
+2026/04/10-15:49:23.930 4b48 Delete type=2 #57
+2026/04/10-15:49:24.064 8818 Level-0 table #64: started
+2026/04/10-15:49:24.104 8818 Level-0 table #64: 316 bytes OK
+2026/04/10-15:49:24.166 8818 Delete type=0 #58
+2026/04/10-15:49:24.166 4b48 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/04/10-15:49:24.167 4b48 Manual compaction at level-1 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at '\x00\x18\x00\x00\x05' @ 355325 : 1
+2026/04/10-15:49:24.167 4b48 Compacting 1@1 + 1@2 files
+2026/04/10-15:49:24.539 4b48 Generated table #65@1: 30945 keys, 1378388 bytes
+2026/04/10-15:49:24.539 4b48 Compacted 1@1 + 1@2 files => 1378388 bytes
+2026/04/10-15:49:24.598 4b48 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/04/10-15:49:24.599 4b48 Delete type=2 #64
+2026/04/10-15:49:24.599 8818 Manual compaction at level-1 from '\x00\x18\x00\x00\x05' @ 355325 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
