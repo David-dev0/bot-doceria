@@ -33,15 +33,22 @@ client.onMessage(async (message)=>{
 if(message.fromMe) return;
 
 const numero = message.from;
-const msg = message.body
+//criar cliente
+if (!clientes[numero]) {
+    clientes[numero] = { etapa: "menu" };
+}
+//trata mensagem de texto
+let msg = ""; 
+if(message.type === "chat"){
+    msg = message.body
 .toLowerCase()
 .normalize("NFD")
 .replace(/[\u0300-\u036f]/g, "");
-if (clientes[numero]) {
-    clientes[numero] = { etapa: "menu" };
- return client.sendText(numero,
-
-        `🍰 *Melu Doceria*
+}
+// se for audio
+if (message.type === "ptt" || message.type === "audio") {
+return client.sendText(numero,
+`🍰 *Melu Doceria*
 
 Escolha uma opção:
 
@@ -50,14 +57,15 @@ Escolha uma opção:
 3️⃣ Horário de atendimento
 4️⃣ Atendimento
 5️⃣ instagram
+0️⃣ menu principal
 
 Digite um número para escolher a opção desejada ou digite *0* para voltar ao *MENU* principal.`);
 
  
 }
 
-//voltar ao menu
-if (["menu" , "0" , "voltar" , "inicio"].includes(msg)) {
+//se for texto
+if (["0"].includes(msg)) {
     clientes[numero] = { etapa: "menu" };
  return client.sendText(numero,
 `🍰 *Melu Doceria*
@@ -69,6 +77,7 @@ Escolha uma opção:
 3️⃣ Horário de atendimento
 4️⃣ Atendimento
 5️⃣ instagram
+0️⃣ menu principal
 
 Digite um número para escolher a opção desejada ou digite *0* para voltar ao *MENU* principal.`);
 
@@ -125,5 +134,4 @@ https://www.instagram.com/meludoceriaa/`);
 }
 
 });
-
 }

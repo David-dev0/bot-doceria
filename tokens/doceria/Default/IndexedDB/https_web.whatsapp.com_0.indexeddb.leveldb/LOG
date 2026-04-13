@@ -1,18 +1,18 @@
-2026/04/13-17:46:28.610 3304 Reusing MANIFEST C:\Users\borge\bot-doceria\tokens\doceria\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/04/13-17:46:28.611 3304 Recovering log #417
-2026/04/13-17:46:28.950 3304 Reusing old log C:\Users\borge\bot-doceria\tokens\doceria\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000417.log 
-2026/04/13-18:24:43.726 3304 Level-0 table #425: started
-2026/04/13-18:24:43.925 3304 Level-0 table #425: 1504698 bytes OK
-2026/04/13-18:24:43.994 3304 Delete type=0 #417
-2026/04/13-18:25:32.430 3304 Compacting 1@1 + 4@2 files
-2026/04/13-18:25:32.879 3304 Generated table #426@1: 67999 keys, 2214184 bytes
-2026/04/13-18:25:33.164 3304 Generated table #427@1: 18807 keys, 2167431 bytes
-2026/04/13-18:25:33.425 3304 Generated table #428@1: 23010 keys, 2198362 bytes
-2026/04/13-18:25:33.661 3304 Generated table #429@1: 27373 keys, 1650981 bytes
-2026/04/13-18:25:33.661 3304 Compacted 1@1 + 4@2 files => 8230958 bytes
-2026/04/13-18:25:33.690 3304 compacted to: files[ 0 0 4 0 0 0 0 ]
-2026/04/13-18:25:33.690 3304 Delete type=2 #419
-2026/04/13-18:25:33.690 3304 Delete type=2 #420
-2026/04/13-18:25:33.690 3304 Delete type=2 #421
-2026/04/13-18:25:33.690 3304 Delete type=2 #422
-2026/04/13-18:25:33.690 3304 Delete type=2 #425
+2026/04/13-18:34:00.929 5c74 Reusing MANIFEST C:\Users\borge\bot-doceria\tokens\doceria\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/04/13-18:34:00.930 5c74 Recovering log #424
+2026/04/13-18:34:02.011 5c74 Reusing old log C:\Users\borge\bot-doceria\tokens\doceria\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000424.log 
+2026/04/13-19:05:07.283 5c74 Level-0 table #432: started
+2026/04/13-19:05:07.598 5c74 Level-0 table #432: 1317162 bytes OK
+2026/04/13-19:05:07.690 5c74 Delete type=0 #424
+2026/04/13-19:07:21.314 5c74 Compacting 1@1 + 4@2 files
+2026/04/13-19:07:21.724 5c74 Generated table #433@1: 67975 keys, 2214669 bytes
+2026/04/13-19:07:22.080 5c74 Generated table #434@1: 18613 keys, 2166622 bytes
+2026/04/13-19:07:22.510 5c74 Generated table #435@1: 23163 keys, 2198062 bytes
+2026/04/13-19:07:22.945 5c74 Generated table #436@1: 29673 keys, 1731361 bytes
+2026/04/13-19:07:22.967 5c74 Compacted 1@1 + 4@2 files => 8310714 bytes
+2026/04/13-19:07:23.021 5c74 compacted to: files[ 0 0 4 0 0 0 0 ]
+2026/04/13-19:07:23.023 5c74 Delete type=2 #426
+2026/04/13-19:07:23.024 5c74 Delete type=2 #427
+2026/04/13-19:07:23.025 5c74 Delete type=2 #428
+2026/04/13-19:07:23.025 5c74 Delete type=2 #429
+2026/04/13-19:07:23.025 5c74 Delete type=2 #432
