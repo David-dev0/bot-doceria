@@ -1,3 +1,6 @@
-2026/04/13-19:30:17.029 3ae8 Reusing MANIFEST C:\Users\borge\bot-doceria\tokens\doceria\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/04/13-19:30:17.030 3ae8 Recovering log #444
-2026/04/13-19:30:17.094 3ae8 Reusing old log C:\Users\borge\bot-doceria\tokens\doceria\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000444.log 
+2026/04/13-19:35:22.590 25c8 Reusing MANIFEST C:\Users\borge\bot-doceria\tokens\doceria\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/04/13-19:35:22.591 25c8 Recovering log #444
+2026/04/13-19:35:22.753 25c8 Reusing old log C:\Users\borge\bot-doceria\tokens\doceria\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000444.log 
+2026/04/13-19:44:01.372 76a4 Level-0 table #453: started
+2026/04/13-19:44:01.477 76a4 Level-0 table #453: 1054748 bytes OK
+2026/04/13-19:44:01.531 76a4 Delete type=0 #444

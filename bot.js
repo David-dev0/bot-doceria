@@ -65,7 +65,7 @@ Digite um número para escolher a opção desejada ou digite *0* para voltar ao 
 }
 
 //se for texto
-else if (msg === "0") {
+if (msg === "0") {
     clientes[numero] = { etapa: "menu" };
  return client.sendText(numero,
 `🍰 *Melu Doceria*
@@ -84,9 +84,9 @@ Digite um número para escolher a opção desejada ou digite *0* para voltar ao 
  
 }
 
-if(msg === "1"){
+else if(msg === "1"){
 
-await client.sendText(message.from,
+return client.sendText(message.from,
 
 `🍩 Cardápio
 
@@ -98,7 +98,7 @@ Se precisar de ajuda, me chama!`);
 
 else if(msg === "2"){
 
-await client.sendText(message.from,
+return client.sendText(message.from,
 
 `Por gentileza, me envie uma mensagem detalhando o que deseja encomendar.`);
 
@@ -106,7 +106,7 @@ await client.sendText(message.from,
 
 else if(msg === "3"){
 
-await client.sendText(message.from,
+return client.sendText(message.from,
 
 `Horário:
 
@@ -118,14 +118,14 @@ Domingo
 }
 else if(msg === "4"){
 
-await client.sendText(message.from,
+return client.sendText(message.from,
 
 `Aguarde um momento por favor`);
 
 }
 else if(msg === "5"){
 
-await client.sendText(message.from,
+return client.sendText(message.from,
 
 `instagram
 
@@ -137,8 +137,6 @@ else {
     return client.sendText(numero,
 
 `🍰 *Melu Doceria*
-
-Não entendi sua mensagem, mas posso te ajudar 😊
 
 Escolha uma opção:
 
