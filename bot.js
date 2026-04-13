@@ -65,7 +65,7 @@ Digite um número para escolher a opção desejada ou digite *0* para voltar ao 
 }
 
 //se for texto
-if (msg === "0") {
+else if (msg === "0") {
     clientes[numero] = { etapa: "menu" };
  return client.sendText(numero,
 `🍰 *Melu Doceria*
