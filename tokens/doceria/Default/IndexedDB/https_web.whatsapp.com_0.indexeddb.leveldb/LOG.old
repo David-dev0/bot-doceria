@@ -1,3 +1,18 @@
-2026/04/13-18:28:32.588 7978 Reusing MANIFEST C:\Users\borge\bot-doceria\tokens\doceria\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/04/13-18:28:32.589 7978 Recovering log #424
-2026/04/13-18:28:32.590 7978 Reusing old log C:\Users\borge\bot-doceria\tokens\doceria\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000424.log 
+2026/04/13-18:34:00.929 5c74 Reusing MANIFEST C:\Users\borge\bot-doceria\tokens\doceria\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/04/13-18:34:00.930 5c74 Recovering log #424
+2026/04/13-18:34:02.011 5c74 Reusing old log C:\Users\borge\bot-doceria\tokens\doceria\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000424.log 
+2026/04/13-19:05:07.283 5c74 Level-0 table #432: started
+2026/04/13-19:05:07.598 5c74 Level-0 table #432: 1317162 bytes OK
+2026/04/13-19:05:07.690 5c74 Delete type=0 #424
+2026/04/13-19:07:21.314 5c74 Compacting 1@1 + 4@2 files
+2026/04/13-19:07:21.724 5c74 Generated table #433@1: 67975 keys, 2214669 bytes
+2026/04/13-19:07:22.080 5c74 Generated table #434@1: 18613 keys, 2166622 bytes
+2026/04/13-19:07:22.510 5c74 Generated table #435@1: 23163 keys, 2198062 bytes
+2026/04/13-19:07:22.945 5c74 Generated table #436@1: 29673 keys, 1731361 bytes
+2026/04/13-19:07:22.967 5c74 Compacted 1@1 + 4@2 files => 8310714 bytes
+2026/04/13-19:07:23.021 5c74 compacted to: files[ 0 0 4 0 0 0 0 ]
+2026/04/13-19:07:23.023 5c74 Delete type=2 #426
+2026/04/13-19:07:23.024 5c74 Delete type=2 #427
+2026/04/13-19:07:23.025 5c74 Delete type=2 #428
+2026/04/13-19:07:23.025 5c74 Delete type=2 #429
+2026/04/13-19:07:23.025 5c74 Delete type=2 #432
