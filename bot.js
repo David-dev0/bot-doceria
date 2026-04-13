@@ -81,7 +81,9 @@ await client.sendText(message.from,
 
 `🍩 Cardápio
 
-https://wa.me/c/556793464156`);
+https://wa.me/c/556793464156
+
+Se precisar de ajuda, me chama!`);
 
 }
 
