@@ -70,7 +70,9 @@ Escolha uma opção:
 2️⃣ encomendas personalizadas 
 3️⃣ Horário de atendimento
 4️⃣ Atendimento
-5️⃣ instagram`);
+5️⃣ instagram
+
+Digite um número para escolher a opção desejada`);
 
  
 }
