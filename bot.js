@@ -96,7 +96,7 @@ Se precisar de ajuda, me chama!`);
 
 }
 
-if(msg === "2"){
+else if(msg === "2"){
 
 await client.sendText(message.from,
 
@@ -104,7 +104,7 @@ await client.sendText(message.from,
 
 }
 
-if(msg === "3"){
+else if(msg === "3"){
 
 await client.sendText(message.from,
 
@@ -116,20 +116,40 @@ Domingo
 13h às 22h`);
 
 }
-if(msg === "4"){
+else if(msg === "4"){
 
 await client.sendText(message.from,
 
 `Aguarde um momento por favor`);
 
 }
-if(msg === "5"){
+else if(msg === "5"){
 
 await client.sendText(message.from,
 
 `instagram
 
 https://www.instagram.com/meludoceriaa/`);
+
+}
+// QUALQUER OUTRA MENSAGEM
+else {
+    return client.sendText(numero,
+
+`🍰 *Melu Doceria*
+
+Não entendi sua mensagem, mas posso te ajudar 😊
+
+Escolha uma opção:
+
+1️⃣ Cardápio
+2️⃣ Encomendas personalizadas
+3️⃣ Horário de atendimento
+4️⃣ Atendimento
+5️⃣ Instagram
+0️⃣ Menu principal
+
+Digite o número da opção desejada.`);
 
 }
 
