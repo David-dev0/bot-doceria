@@ -131,23 +131,6 @@ return client.sendText(message.from,
 
 https://www.instagram.com/meludoceriaa/`);
 
-}
-// QUALQUER OUTRA MENSAGEM
-else {
-    return client.sendText(numero,
-
-`🍰 *Melu Doceria*
-
-Escolha uma opção:
-
-1️⃣ Cardápio
-2️⃣ Encomendas personalizadas
-3️⃣ Horário de atendimento
-4️⃣ Atendimento
-5️⃣ Instagram
-0️⃣ Menu principal
-
-Digite o número da opção desejada.`);
 
 }
 
