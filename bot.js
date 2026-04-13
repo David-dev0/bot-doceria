@@ -37,9 +37,27 @@ const msg = message.body
 .toLowerCase()
 .normalize("NFD")
 .replace(/[\u0300-\u036f]/g, "");
+if (clientes[numero]) {
+    clientes[numero] = { etapa: "menu" };
+ return client.sendText(numero,
 
+        `🍰 *Melu Doceria*
 
-if (!clientes[numero]){
+Escolha uma opção:
+
+1️⃣ Cardápio
+2️⃣ encomendas personalizadas 
+3️⃣ Horário de atendimento
+4️⃣ Atendimento
+5️⃣ instagram
+
+Digite um número para escolher a opção desejada ou digite *0* para voltar ao *MENU* principal.`);
+
+ 
+}
+
+//voltar ao menu
+if (["menu" , "0" , "voltar" , "inicio"].includes(msg)) {
     clientes[numero] = { etapa: "menu" };
  return client.sendText(numero,
 `🍰 *Melu Doceria*
@@ -52,7 +70,7 @@ Escolha uma opção:
 4️⃣ Atendimento
 5️⃣ instagram
 
-Digite um número para escolher a opção desejada`);
+Digite um número para escolher a opção desejada ou digite *0* para voltar ao *MENU* principal.`);
 
  
 }
