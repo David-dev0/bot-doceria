@@ -46,7 +46,7 @@ if(message.type === "chat"){
 .replace(/[\u0300-\u036f]/g, "");
 }
 // se for audio
-if (message.type === "ptt" || message.type === "audio") {
+if (message.type === "text" || message.type === "audio") {
 return client.sendText(numero,
 `🍰 *Melu Doceria*
 
