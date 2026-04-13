@@ -3,6 +3,7 @@ const express = require('express');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+const clientes = {};
 
 app.get('/', (req,res)=>{
     res.send("Bot da doceria rodando 🍰");
@@ -31,37 +32,16 @@ client.onMessage(async (message)=>{
 
 if(message.fromMe) return;
 
+const numero = message.from;
 const msg = message.body
 .toLowerCase()
 .normalize("NFD")
 .replace(/[\u0300-\u036f]/g, "");
 
-const saudacoes = [
-"oi",
-"ola",
-"bom dia",
-"boa tarde",
-"boa noite",
-"oie",
-"oii",
-"oii",
-"alo",
-"dia",
-"tarde",
-"noite",
-"opa",
-"tudo bom?",
-"tudo bom",
-"tudo bem",
-"tudo bem?",
-"tdb",
-"tdb?",
 
-];
-
-if (saudacoes.some(s => msg.includes(s))) {
-
-await client.sendText(message.from,
+if (!clientes[numero]){
+    clientes[numero] = { etapa: "menu" };
+ return client.sendText(numero,
 `🍰 *Melu Doceria*
 
 Escolha uma opção:

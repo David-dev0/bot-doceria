@@ -1,3 +1,7 @@
-2026/04/10-16:43:08.482 6548 Reusing MANIFEST C:\Users\borge\bot-doceria\tokens\doceria\Default\Local Storage\leveldb/MANIFEST-000001
-2026/04/10-16:43:08.498 6548 Recovering log #4
-2026/04/10-16:43:08.534 6548 Reusing old log C:\Users\borge\bot-doceria\tokens\doceria\Default\Local Storage\leveldb/000004.log 
+2026/04/13-10:20:00.573 7e2c Reusing MANIFEST C:\Users\borge\bot-doceria\tokens\doceria\Default\Local Storage\leveldb/MANIFEST-000001
+2026/04/13-10:20:00.626 7e2c Recovering log #4
+2026/04/13-10:20:00.628 7e2c Level-0 table #7: started
+2026/04/13-10:20:00.691 7e2c Level-0 table #7: 18845 bytes OK
+2026/04/13-10:20:00.691 7e2c Recovering log #7
+2026/04/13-10:20:00.700 7e2c Reusing old log C:\Users\borge\bot-doceria\tokens\doceria\Default\Local Storage\leveldb/000007.log 
+2026/04/13-10:20:00.743 7e2c Delete type=0 #4
