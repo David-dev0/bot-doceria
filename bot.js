@@ -27,6 +27,11 @@ wppconnect.create({
 .catch(error => console.log(error));
 
 function start(client){
+    const saudacoes = [
+  "oi", "oii" , "oiii" ,"ola", "olá", "ooi", "oie", "opa",
+  "bom dia", "boa tarde", "boa noite",
+  "e ai", "e aí", "fala", "hello" , "ei" , "ow"
+];
 
 client.onMessage(async (message)=>{
 
@@ -43,10 +48,11 @@ if(message.type === "chat"){
     msg = message.body
 .toLowerCase()
 .normalize("NFD")
-.replace(/[\u0300-\u036f]/g, "");
+.replace(/[\u0300-\u036f]/g, "")
+.trim();
 }
 // se for audio
-if (message.type === "text" || message.type === "audio") {
+if (saudacoes.some(s => msg.includes(s))) {
 return client.sendText(numero,
 `🍰 *Melu Doceria*
 
