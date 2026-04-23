@@ -40,7 +40,20 @@ if(message.fromMe) return;
 const numero = message.from;
 //criar cliente
 if (!clientes[numero]) {
-    clientes[numero] = { etapa: "menu" };
+    clientes[numero] = { 
+        etapa: "inicio",
+        ultimaInteracao: Date.now()
+    };
+ const TEMPO_EXPIRACAO = 10 * 60 * 1000; // 10 minutos
+
+if (Date.now() - clientes[numero].ultimaInteracao > TEMPO_EXPIRACAO) {
+    clientes[numero] = { 
+        etapa: "inicio",
+        ultimaInteracao: Date.now()
+    };
+}
+
+clientes[numero].ultimaInteracao = Date.now();   
 }
 //trata mensagem de texto
 let msg = ""; 
@@ -52,7 +65,7 @@ if(message.type === "chat"){
 .trim();
 }
 // se for audio
-if (saudacoes.some(s => msg.includes(s))) {
+if (saudacoes.includes(msg)) {
 return client.sendText(numero,
 `🍰 *Melu Doceria*
 
