@@ -65,27 +65,27 @@ if(message.type === "chat"){
 .trim();
 }
 // se for audio
-if (saudacoes.includes(msg)) {
-return client.sendText(numero,
+if (saudacoes.includes(msg) && clientes[numero].etapa === "inicio") {
+    clientes[numero].etapa = "menu";
+
+    return client.sendText(numero,
 `🍰 *Melu Doceria*
 
 Escolha uma opção:
 
 1️⃣ Cardápio
-2️⃣ encomendas personalizadas 
+2️⃣ Encomendas personalizadas 
 3️⃣ Horário de atendimento
 4️⃣ Atendimento
-5️⃣ instagram
-0️⃣ menu principal
+5️⃣ Instagram
+0️⃣ Menu principal
 
 Digite um número para escolher a opção desejada ou digite *0* para voltar ao *MENU* principal.`);
-
- 
 }
 
 //se for texto
 if (msg === "0") {
-    clientes[numero] = { etapa: "menu" };
+    clientes[numero].etapa = "menu";
  return client.sendText(numero,
 `🍰 *Melu Doceria*
 
@@ -104,8 +104,9 @@ Digite um número para escolher a opção desejada ou digite *0* para voltar ao 
 }
 
 else if(msg === "1"){
+  clientes[numero].etapa = "menu";
 
-return client.sendText(message.from,
+    return client.sendText(numero,
 
 `🍩 Cardápio
 
@@ -117,7 +118,9 @@ Se precisar de ajuda, me chama!`);
 
 else if(msg === "2"){
 
-return client.sendText(message.from,
+ clientes[numero].etapa = "menu";
+
+    return client.sendText(numero,
 
 `Por gentileza, me envie uma mensagem detalhando o que deseja encomendar.`);
 
@@ -125,7 +128,9 @@ return client.sendText(message.from,
 
 else if(msg === "3"){
 
-return client.sendText(message.from,
+ clientes[numero].etapa = "menu";
+
+    return client.sendText(numero,
 
 `Horário:
 
@@ -137,14 +142,18 @@ Domingo
 }
 else if(msg === "4"){
 
-return client.sendText(message.from,
+ clientes[numero].etapa = "menu";
+
+    return client.sendText(numero,
 
 `Aguarde um momento por favor`);
 
 }
 else if(msg === "5"){
 
-return client.sendText(message.from,
+ clientes[numero].etapa = "menu";
+
+    return client.sendText(numero,
 
 `instagram
 
