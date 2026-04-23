@@ -67,6 +67,7 @@ if(message.type === "chat"){
 // se for audio
 if (saudacoes.includes(msg) && clientes[numero].etapa === "inicio") {
     clientes[numero].etapa = "menu";
+    await new Promise(resolve => setTimeout(resolve, 1500));
 
     return client.sendText(numero,
 `🍰 *Melu Doceria*
@@ -86,6 +87,7 @@ Digite um número para escolher a opção desejada ou digite *0* para voltar ao 
 //se for texto
 if (msg === "0") {
     clientes[numero].etapa = "menu";
+    await new Promise(resolve => setTimeout(resolve, 1500));
  return client.sendText(numero,
 `🍰 *Melu Doceria*
 
@@ -105,6 +107,7 @@ Digite um número para escolher a opção desejada ou digite *0* para voltar ao 
 
 else if(msg === "1"){
   clientes[numero].etapa = "menu";
+  await new Promise(resolve => setTimeout(resolve, 1500));
 
     return client.sendText(numero,
 
@@ -119,6 +122,7 @@ Se precisar de ajuda, me chama!`);
 else if(msg === "2"){
 
  clientes[numero].etapa = "menu";
+ await new Promise(resolve => setTimeout(resolve, 1500));
 
     return client.sendText(numero,
 
@@ -129,6 +133,7 @@ else if(msg === "2"){
 else if(msg === "3"){
 
  clientes[numero].etapa = "menu";
+ await new Promise(resolve => setTimeout(resolve, 1500));
 
     return client.sendText(numero,
 
@@ -143,6 +148,7 @@ Domingo
 else if(msg === "4"){
 
  clientes[numero].etapa = "menu";
+ await new Promise(resolve => setTimeout(resolve, 1500));
 
     return client.sendText(numero,
 
@@ -151,7 +157,8 @@ else if(msg === "4"){
 }
 else if(msg === "5"){
 
- clientes[numero].etapa = "menu";
+ clientes[numero].etapa = "menu";``
+ await new Promise(resolve => setTimeout(resolve, 1500));
 
     return client.sendText(numero,
 
