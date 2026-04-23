@@ -1,3 +1,15 @@
-2026/04/13-20:14:00.873 7f00 Reusing MANIFEST C:\Users\borge\bot-doceria\tokens\doceria\Default\Local Storage\leveldb/MANIFEST-000001
-2026/04/13-20:14:00.892 7f00 Recovering log #22
-2026/04/13-20:14:00.901 7f00 Reusing old log C:\Users\borge\bot-doceria\tokens\doceria\Default\Local Storage\leveldb/000022.log 
+2026/04/23-09:31:47.418 1f24 Reusing MANIFEST C:\Users\borge\bot-doceria\tokens\doceria\Default\Local Storage\leveldb/MANIFEST-000001
+2026/04/23-09:31:47.419 1f24 Recovering log #22
+2026/04/23-09:31:47.530 1f24 Reusing old log C:\Users\borge\bot-doceria\tokens\doceria\Default\Local Storage\leveldb/000022.log 
+2026/04/23-09:38:48.847 2b4c Level-0 table #26: started
+2026/04/23-09:38:48.928 2b4c Level-0 table #26: 12454 bytes OK
+2026/04/23-09:38:48.950 2b4c Delete type=0 #22
+2026/04/23-09:38:48.951 2b4c Compacting 4@0 + 1@1 files
+2026/04/23-09:38:48.994 2b4c Generated table #27@0: 263 keys, 15098 bytes
+2026/04/23-09:38:48.994 2b4c Compacted 4@0 + 1@1 files => 15098 bytes
+2026/04/23-09:38:49.015 2b4c compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/04/23-09:38:49.017 2b4c Delete type=2 #15
+2026/04/23-09:38:49.018 2b4c Delete type=2 #17
+2026/04/23-09:38:49.018 2b4c Delete type=2 #20
+2026/04/23-09:38:49.018 2b4c Delete type=2 #23
+2026/04/23-09:38:49.018 2b4c Delete type=2 #26
